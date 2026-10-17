@@ -1,0 +1,7 @@
+# Course Reflection
+
+The most difficult concept in the course was asynchronous JavaScript and handling request states and errors with `async`/`await` and `try`/`catch`. At first, it was hard to keep loading, success, and failure behavior clear while an API request was still in progress. I overcame this by breaking each request into those states, practicing with small fetch examples, and showing user-provided text safely with `textContent`.
+
+Based on feedback from my Project 1 presentation about making request behavior easier to follow, I would improve TicketHub's checkout experience. I would show clearer progress and error messages while a seat is held and payment is pending, and explain when a hold expires. I would also test the waiting-room and payment flow with realistic failure cases so customers understand whether they need to retry. This would make the system design's correctness and fairness visible to users, not just enforced in the backend.
+
+Next, I want to learn how to build the design as a working service: Node.js and Express for APIs, PostgreSQL transactions and indexes for inventory, and automated load testing for sale traffic. I also want to study distributed systems further, especially queues, retries, and idempotency, so I can evaluate how production systems behave when components fail. These are practical next steps from the concepts I applied in this assignment.
